@@ -6,7 +6,7 @@ int main(){
 
     int lowestBit = num & (-num);
 
-    printf("%d",lowestBit);
+    printf("%d",lowestBit-1);
 
     return 0;
 }
