@@ -3,10 +3,10 @@
 int main(){
     int a;
     scanf("%d",&a);
-    if(a>=65 ||a<=91){
+    if(a>=97||a<=122){
         printf("Lowercase");
     }
-    else if(a>=92||a<=118){
+    else if(a>=65||a<=90){
         printf("Uppercase");
     }
     else{
