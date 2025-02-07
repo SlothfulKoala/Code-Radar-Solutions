@@ -3,14 +3,10 @@
 
 int main() {
     char ch;
-    
-    // Taking input from the user
-    printf("Enter a character: ");
     scanf("%c", &ch);
-    
-    // Checking if the character is a digit
+
     if (isdigit(ch)) {
-        printf("%c is a digit.\n", ch);
+        printf("Digit", ch);
     }
     // Checking if the character is an alphabet
     else if (isalpha(ch)) {
@@ -19,14 +15,14 @@ int main() {
         
         // Checking for vowels
         if (lower_ch == 'a' || lower_ch == 'e' || lower_ch == 'i' || lower_ch == 'o' || lower_ch == 'u') {
-            printf("%c is a vowel.\n", ch);
+            printf("Vowel", ch);
         } else {
-            printf("%c is a consonant.\n", ch);
+            printf("Consonant", ch);
         }
     }
     // If not a digit or alphabet, then it's a special character
     else {
-        printf("%c is a special character.\n", ch);
+        printf("Special Character", ch);
     }
     
     return 0;
