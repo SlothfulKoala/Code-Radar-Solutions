@@ -1,17 +1,20 @@
 #include <stdio.h>
 
 int main(){
-    int a,b,c;
+    int a,b,c,largest;
     scanf("%d%d%d",&a,&b,&c);
 
-    if(a>b&&a>c){
-        printf("%d",a);
+    if(a>b){
+        largest = a
     }
-    else if (b>a&&b>c){
-        printf("%d",b);
+    else if(b>a){
+        largest = b
     }
-    else if (c>a&&c>b){
-        printf("%d",c);
+    if(c>largest){
+        largest = c
     }
+
+    printf("%d",largest);
+
     return 0;
 }
