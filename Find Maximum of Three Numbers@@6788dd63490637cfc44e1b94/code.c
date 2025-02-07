@@ -5,13 +5,13 @@ int main(){
     scanf("%d%d%d",&a,&b,&c);
 
     if(a>b){
-        largest = a
+        largest = a;
     }
     else if(b>a){
-        largest = b
+        largest = b;
     }
     if(c>largest){
-        largest = c
+        largest = c;
     }
 
     printf("%d",largest);
