@@ -9,8 +9,9 @@ int main(){
                 printf(" ");
             }
             else{
-                printf(*)
+                printf(*);
             }
         }
     }
+    return 0;
 }
