@@ -10,4 +10,5 @@ int main(){
             printf("%d",temp);
         }
     }
+    return 0;
 }
