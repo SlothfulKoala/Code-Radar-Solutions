@@ -14,8 +14,8 @@ int main(){
                 count++;
             }
         }
-        
-        for(int i = 0; i<count; i++){
+
+        for(int i = 0; i<(count-1); i++){
             printf("*");
         }
         printf("\n");
