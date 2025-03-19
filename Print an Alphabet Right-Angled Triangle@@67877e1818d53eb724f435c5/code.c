@@ -2,6 +2,14 @@
 #include<stdio.h>
 
 int main(){
-    char c = 93;
-    printf("%c",c);
+    int n;
+    scanf("%d",&n);
+
+    for(int i=1; i<=n; i++){
+        for(int j=0 ; j<i; j++){
+            printf("%c",65+j);
+        }
+        printf("\n");
+    }
+    return 0;
 }
