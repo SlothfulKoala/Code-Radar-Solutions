@@ -2,6 +2,6 @@
 #include<stdio.h>
 
 int main(){
-    char c = 93
+    char c = 93;
     printf("%c",c);
 }
