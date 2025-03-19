@@ -20,7 +20,7 @@ int main(){
         for(int j = 1; j<=n-1-i;j++){
             printf(" ");
         }
-        for(int j=1; j<=(n*2-1); j++){
+        for(int j=1; j<=(i*2-1); j++){
             printf("*");
         }
         printf("\n");
